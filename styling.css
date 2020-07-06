@@ -227,7 +227,7 @@ padding-top: 12.3px;
 
 
 
-/*  For responsive images */
+/*  responsive images */
 
 
 
@@ -316,8 +316,9 @@ video:focus {
 }
 
 .video {
+  text-align: center;
   margin-left: 50%;
-  margin-top:25%;
+  margin-top:330px;
   transform:translate(-50%,-50%);
   display:block;
 position:absolute;
@@ -337,25 +338,27 @@ position:absolute;
 
 .videotitulo{
   position:absolute;
-
   font-family:"conthrax";
+    width:300px;
   font-size:20px;
-  top:10%;
+  top:60px;
   left:50%;
   transform:translate(-50%,-50%);
   color:white;
+    text-align: center;
 
 }
 
 .videosubtitulo{
   position:absolute;
-
   font-family:"condensadaoblíqua";
+    width:200px;
   font-size:15px;
   color:white;
-  top:15%;
+  top:85px;
   left:50%;
   transform:translate(-50%,-50%);
+  text-align: center;
 
 }
 
